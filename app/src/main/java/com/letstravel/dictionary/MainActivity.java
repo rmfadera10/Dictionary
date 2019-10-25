@@ -69,7 +69,7 @@ private TextView txtview1;
                 String dictionary2=parent.getItemAtPosition(position).toString();
                 String dictionary3=dictionary1.get(dictionary2);
                 txtview1.setText("Meaning of "+ " " +dictionary2+" "+ "is :"+ " " +dictionary3);
-              //  Toast.makeText(MainActivity.this, "Capital of" +dictionary2+ "is :"+dictionary3, Toast.LENGTH_SHORT).show();
+               Toast.makeText(MainActivity.this, "Capital of" +dictionary2+ "is :"+dictionary3, Toast.LENGTH_SHORT).show();
 
             }
         });
